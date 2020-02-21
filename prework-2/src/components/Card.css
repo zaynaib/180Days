@@ -1,0 +1,15 @@
+.Card{
+    position: relative;
+}
+
+.Card__metadata{
+    position: relative;
+}
+
+.Card__button{
+    
+    position: absolute;
+    top: 12px;
+    left: 220px;
+    
+}

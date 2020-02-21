@@ -1,0 +1,16 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:solid black;
+}
+
+.head__title__logo{
+    font-weight: bold;
+    color:darkgray;
+}
+
+.head__navigation__link{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
