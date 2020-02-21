@@ -8,12 +8,17 @@ import "./Card.css";
 class Card extends React.Component{
     render(){
         let fontf = this.props.title;
+        let fontsiz = `${this.props.size}px`;
         const divStyle ={
-             fontFamily:  fontf
+            fontFamily:  fontf,
+            fontSize: fontsiz
+             
         }
 
+        {console.log(fontsiz)}
+
+
         return(
-            
             <div className="Card" style={divStyle}>
 
                 <div className="Card__metadata">

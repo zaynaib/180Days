@@ -11,9 +11,10 @@ class Main extends React.Component{
     constructor(props){
         super(props);
         this.handleFahrenheitChange = this.handleFahrenheitChange.bind(this);
+        this.handleFontSize = this.handleFontSize.bind(this);
 
 
-        this.state = {temperature: ''};
+        this.state = {temperature: '',size:18};
 
 
     }
@@ -23,24 +24,29 @@ class Main extends React.Component{
         console.log(this.state.temperature)
       }
 
+      handleFontSize(size){
+          this.setState({size})
+      }
+
      
 
     
 
     render(){
         const temperature = this.state.temperature;
+        const size = this.state.size;
+      
 
         return(
             <div>
-            
                 <Header/>
-                <Input onTemperatureChange={this.handleFahrenheitChange} />
+                <Input onTemperatureChange={this.handleFahrenheitChange} onFontSize={this.handleFontSize} />
                 <div className="container">
               
 
                  {fonts.map( (font,index) => {
                     if(this.state.temperature === ''){
-                        return <Card title ={font.name} author={font.author} display = "The quick brown fox jumps over the lazy dog"/>
+                        return <Card size={this.state.size} title ={font.name} author={font.author} display = "The quick brown fox jumps over the lazy dog"/>
                       }
                       else{
                         return <Card title ={font.name} author={font.author} display = {this.state.temperature}/>              
