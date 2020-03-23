@@ -32,4 +32,8 @@ https://alistapart.com/article/responsive-web-design/
 https://brolik.com/blog/when-to-use-flexbox/
 https://www.w3schools.com/cssref/css_selectors.asp
 
+https://stackoverflow.com/questions/39607999/css-difference-between-background-and-background-image
+
+https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone
+
 ##

@@ -16,14 +16,7 @@ header {
     justify-content: center;
 }
 
-@media (min-width: 700px) {
-    .container {
-        display: flex;
-        flex-direction: row-reverse;
-    }
 
-
-}
 
 
 
@@ -48,7 +41,7 @@ span {
 }
 
 form {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -58,6 +51,7 @@ input[type=text] {
     border-radius: 10px;
     width: 275px;
     height: 25px;
+    margin: auto;
 
 }
 
@@ -82,6 +76,10 @@ input[type=image] {
     margin-left: 2.5%;
 }
 
+.hero_desktop {
+    display: none;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -89,4 +87,41 @@ input[type=image] {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 650px) {
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .container--info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blurb {
+        line-height: 1.5em;
+        margin-left: 2.5%;
+        width: 60%;
+        margin: 0 auto 15px;
+
+    }
+
+    footer {
+        bottom: 0;
+        width: 100%;
+        margin-top: 2.5%;
+    }
+
+    .hero_mobile {
+        display: none;
+    }
+
+    .hero_desktop {
+        display: inline;
+    }
+
 }
