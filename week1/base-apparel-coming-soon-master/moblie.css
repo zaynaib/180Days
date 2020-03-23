@@ -1,0 +1,60 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 36%, 70%);
+}
+
+header {
+    margin: 2.5em 0 2.5em 2.0em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+span {
+    display: block;
+
+}
+
+.title {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    color: hsl(0, 6%, 24%);
+
+}
+
+.title span {
+    font-weight: 100;
+    letter-spacing: 0.2em;
+    color: hsl(0, 36%, 70%);
+
+}
+
+form {
+    margin: auto;
+}
+
+input {
+    border-radius: 100%;
+}
+
+.blurb {
+    line-height: 1.5em;
+    margin-left: 2.5%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
