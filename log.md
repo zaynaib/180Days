@@ -36,4 +36,14 @@ https://stackoverflow.com/questions/39607999/css-difference-between-background-a
 
 https://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone
 
+http://getbem.com/introduction/
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+
+TO Do's tonight
+-use BEM methodology for html classes
+
+-   form validation - changing the style https://www.youtube.com/watch?v=bb4NqVycr-4
+-   change text type into email type
+    https://www.w3schools.com/tags/att_input_type_email.asp
+
 ##

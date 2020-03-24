@@ -45,7 +45,7 @@ form {
     display: flex;
 }
 
-input[type=text] {
+input[type=email] {
     border: 1px solid hsl(0, 36%, 70%);
     padding: 0.5% 10%;
     border-radius: 10px;
@@ -65,7 +65,7 @@ input[type=image] {
     background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     padding: 0 5%;
     position: relative;
-    left: -35px;
+    left: -10%;
     border-radius: 50px;
 
 
@@ -93,21 +93,27 @@ input[type=image] {
     .container {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: center;
     }
 
     .container--info {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        margin-top: 5%;
     }
 
     .blurb {
         line-height: 1.5em;
-        margin-left: 2.5%;
+        /* margin-left: 2.5%; */
+        margin: 0.5% 2.5%;
         width: 60%;
         margin: 0 auto 15px;
+    }
 
+    .title {
+        text-align: left;
+        margin: 5% auto;
+        line-height: 1.2em;
+        letter-spacing: 0.5em;
     }
 
     footer {

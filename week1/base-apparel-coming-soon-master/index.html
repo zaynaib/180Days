@@ -36,19 +36,22 @@
 		</header>
 
 		<div class="container">
-			<img src="images/hero-mobile.jpg" class="hero_mobile" />
-			<img src="images/hero-desktop.jpg" class="hero_desktop" />
+			<img src="images/hero-mobile.jpg" class="hero_mobile" alt="female model for mobile design" />
+			<img src="images/hero-desktop.jpg" class="hero_desktop" alt="female model for desktop design" />
 
-			<div class="container--info">
-				<p class="title"><span>We're</span> coming soon</p>
+			<div class="container--info" role="main">
+				<p class="title" role="banner">
+					<span>We're</span> coming <br />
+					soon
+				</p>
 
 				<p class="blurb">
 					Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
 					up-to-date with announcements and our launch deals.
 				</p>
 
-				<form>
-					<input type="text" placeholder="Email Address" />
+				<form role="form" aria-labelledby="contact">
+					<input type="email" aria-labelledby="placeholder" placeholder="Email Address" required />
 					<input type="image" src="images/icon-arrow.svg" />
 				</form>
 			</div>
