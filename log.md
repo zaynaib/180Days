@@ -2,30 +2,31 @@
 
 ## Week 1 3/22/2020 - 3/29/2020
 
-## Day 1 - 3/22/2020
+## Day 1 - 3/22/2020 & Day 2 - 3/23/2020
 
-## Notes
+## What did I learn
 
-Front -En
+Questions that popped up while working on this project.
 
-read tomorrow
-
-when to use images vs background images
+**When to use images vs background images**
 
 https://stackoverflow.com/questions/39607999/css-difference-between-background-and-background-image
 
-when to use em, rem and percentages
-when to use flex box vs css grid
-when do you know to move padding or margin
+**When to use em, rem and percentages**
+[Dev Tips em,rem,%](https://www.youtube.com/watch?v=qrduUUdxBSY)
 
-foundations of responsive css designs
-are floats even neccessary?
+**When to use flex box vs css grid**
+
+**When do you know to adjust padding or margin**
+
+**Roundations of responsive css designs**
+
+**Are floats even relevant**
 
 https://www.quora.com/Should-the-float-attribute-be-avoided-in-modern-CSS-and-why
 
 https://blog.prototypr.io/should-we-stop-using-floats-e01742a88f8d
 
-https://www.youtube.com/watch?v=qrduUUdxBSY
 https://teamtreehouse.com/community/em-vs-percentage
 https://www.youtube.com/watch?v=vy-lRUMpEOs
 https://alistapart.com/article/responsive-web-design/
@@ -47,3 +48,5 @@ TO Do's tonight
     https://www.w3schools.com/tags/att_input_type_email.asp
 
 ##
+
+https://stackoverflow.com/questions/132685/font-size-in-css-or-em
