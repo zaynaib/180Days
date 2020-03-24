@@ -25,16 +25,15 @@ https://stackoverflow.com/questions/39607999/css-difference-between-background-a
 https://stackoverflow.com/questions/132685/font-size-in-css-or-em
 
 **When to use flex box vs css grid**
+https://brolik.com/blog/when-to-use-flexbox/
 
 **When do you know to adjust padding or margin**
+
+https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css
 
 **Foundations of responsive css designs**
 
 https://alistapart.com/article/responsive-web-design/
-
-**Flexbox**
-
-https://brolik.com/blog/when-to-use-flexbox/
 
 **CSS**
 
