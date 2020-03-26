@@ -46,7 +46,8 @@ button {
 
 }
 
-.main--content {
+.main--content,
+footer {
     text-align: center;
 }
 
@@ -59,11 +60,15 @@ button {
 
 .attribution {
     font-size: 11px;
-    /* text-align: center; */
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: darkgray;
+}
+
+footer {
+    margin-top: 50;
+
 }
 
 @media (min-width: 650px) {

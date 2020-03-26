@@ -61,3 +61,9 @@ https://www.internetingishard.com/html-and-css/advanced-positioning/
 https://www.quora.com/Should-the-float-attribute-be-avoided-in-modern-CSS-and-why
 
 https://blog.prototypr.io/should-we-stop-using-floats-e01742a88f8d
+
+## Day 3 - March 24, 2020
+
+Em vs rem vs px
+
+https://engageinteractive.co.uk/blog/em-vs-rem-vs-px
